@@ -34,7 +34,7 @@ module.exports = function (grunt) {
                 banner: banner
             },
             dist: {
-                src: ['src/index.js', 'src/descriptor.js', 'src/deckgrid.js'],
+                src: ['src/index.js', 'src/descriptor.js', 'src/deckgrid.js', 'src/event.js'],
                 dest: '<%= pkg.name %>.js'
             }
         },

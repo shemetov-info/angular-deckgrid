@@ -28,7 +28,7 @@ angular.module('akoenig.deckgrid').factory('DeckgridDescriptor', [
         function Descriptor () {
             this.restrict = 'AE';
 
-            this.template = '<div data-ng-repeat="column in columns" class="{{layout.classList}}">' +
+            this.template = '<div data-ng-repeat="column in columns" class="{{layout.classList}}" deckgrid-finished>' +
                                 '<div data-ng-repeat="card in column" data-ng-include="cardTemplate"></div>' +
                             '</div>';
 
